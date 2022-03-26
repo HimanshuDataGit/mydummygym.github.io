@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("background.jpg");
+  height: 2000px;
+  color: white;
+  background-repeat: no-repeat;
+}
+.testHeading {
+  color: #00000061;
+  font-size: x-large;
+  position: absolute;
+  top: 650px;
+  left: 550px;
+  margin: auto;
+  font-style: oblique;
+}
+.left {
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+}
+
+.mid {
+  display: inline-block;
+  width: 80%;
+  margin: 120px;
+  position: absolute;
+  bottom: 395px;
+}
+
+.right {
+  height: 495px;
+  width: 400px;
+  right: 34px;
+  top: 90px;
+  position: absolute;
+  display: inline-block;
+}
+.navbar {
+  display: inline-block;
+  width: 109.7%;
+  height: 80px;
+  border-radius: 4px;
+  background-color: #100d0da8;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+  margin: 22px;
+  padding: 20px;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+  padding: 1.6%;
+}
+.navbar li a:hover {
+  color: black;
+  background-color: #f1e8e878;
+  border-radius: 15px;
+}
+#para {
+  height: 1300px;
+  width: 1200px;
+  position: absolute;
+  top: 650px;
+  left: 20px;
+  margin: 15px;
+}
+#box {
+  height: 120px;
+  width: auto;
+  color: rgba(255, 255, 255, 0.842);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-style: oblique;
+  list-style: none;
+  background-color: #0000008a;
+  margin: 50px;
+  padding: 20px 0px 10px 50px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 20px;
+}
+.ftr {
+  height: 80px;
+  width: 100%;
+  position: relative;
+  top: 1920px;
+  background-color: #0a00006b;
+}
+#credit {
+  color: #ffffff94;
+  list-style: none;
+  text-align: center;
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+  padding: 20px;
+}
+#credit:hover {
+  height: 50px;
+  color: black;
+  background-color: #ffffff3d;
+  margin: 10px;
+  padding: 20px;
+}
+form {
+  height: 480px;
+  width: 400px;
+  background-color: #000000c2;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.attb {
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 2px;
+  padding: 10px;
+}
+#MySubmit {
+  height: 30px;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+  margin: 2px;
+}
+#MyReset {
+  height: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+  margin: 2px;
+}
